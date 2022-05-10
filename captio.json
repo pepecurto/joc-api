@@ -1,0 +1,26 @@
+
+{
+"Preguntes":[
+
+	{
+		"id": "1",
+		"pregunta": "Quien es el substituto de Lluis?",
+		"correcta": "3"
+	},
+	{
+		"id": "2",
+		"pregunta": "Quien va siempre con una gorra puesta?",
+		"correcta": "2"
+	},
+	{
+		"id": "3",
+		"pregunta": "Que refugiados acogio Captio?",
+		"correcta": "2"
+	},
+	{
+		"id":"4",
+		"pregunta":"Quienes son los integrantes de QA?",
+		"correcta":"3"
+	}
+]
+}

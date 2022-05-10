@@ -1,0 +1,18 @@
+
+{
+    "Partides":[
+    
+        {
+            "id": "1",
+            "nom": "Partida Pepe"
+        },
+        {
+            "id": "2",
+            "nom": "Partida Paco"
+        },
+        {
+            "id": "3",
+            "nom": "Partida Enric"
+        }
+    ]
+    }

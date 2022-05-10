@@ -1,0 +1,112 @@
+{
+    "Captio":[    
+        {
+            "id": "1",
+            "text": "Juanan Romero",
+            "pregunta": "1",
+            "correta":"Si"
+        },
+        {
+            "id": "2",
+            "text": "Fernando Pereira",
+            "pregunta": "1",
+            "correta":"No"
+
+        },
+        {
+            "id": "3",
+            "text": "Javier Arques",
+            "pregunta": "1",
+            "correta":"No"
+
+        },
+        {
+            "id": "4",
+            "text": "Marc Oliveras",
+            "pregunta": "1",
+            "correta":"No"
+        },
+        
+        {
+            "id": "5",
+            "text": "Enric Beltran",
+            "pregunta": "2",
+            "correta":"Si"
+        },
+        {
+            "id": "6",
+            "text": "Pepe Curto",
+            "pregunta": "2",
+            "correta":"No"
+
+        },
+        {
+            "id": "7",
+            "text": "Victor Beltran",
+            "pregunta": "2",
+            "correta":"No"
+
+        },
+        {
+            "id": "8",
+            "text": "Ivan Tomas",
+            "pregunta": "2",
+            "correta":"No"
+        },
+        
+        {
+            "id": "9",
+            "text": "Ucranianos",
+            "pregunta": "3",
+            "correta":"Si"
+        },
+        {
+            "id": "10",
+            "text": "Rusos",
+            "pregunta": "3",
+            "correta":"No"
+
+        },
+        {
+            "id": "11",
+            "text": "Polacos",
+            "pregunta": "3",
+            "correta":"No"
+
+        },
+        {
+            "id": "12",
+            "text": "Turcos",
+            "pregunta": "3",
+            "correta":"No"
+        },
+        
+        {
+            "id": "13",
+            "text": "Javier,Jhosevic,Roger,Jordi",
+            "pregunta": "4",
+            "correta":"Si"
+        },
+        {
+            "id": "14",
+            "text": "Fernando,Pepe,Enric",
+            "pregunta": "4",
+            "correta":"No"
+
+        },
+        {
+            "id": "15",
+            "text": "Fernando,Isa,Enric,Pepe",
+            "pregunta": "4",
+            "correta":"No"
+
+        },
+        {
+            "id": "16",
+            "text": "Javier,Fernando,Marc,Ricard",
+            "pregunta": "4",
+            "correta":"No"
+        }
+    
+    ]
+    }
