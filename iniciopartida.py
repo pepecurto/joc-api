@@ -13,8 +13,6 @@ def iniciarpartida():
     root.title("Juego Python")
     root.geometry("750x350")
 
-    """root.iconbitmap("C:\driver_chrome\classes\logo2.ico")"""
-
     response = requests.get(api_url).text
     data = json.loads(response)
     for nom in data["Partides"]:
@@ -24,7 +22,6 @@ def iniciarpartida():
     newgame.place(x=50,y=25)
 
     root.mainloop()
-
 
 def opciones(root):
     root.destroy()

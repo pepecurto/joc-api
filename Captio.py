@@ -3,19 +3,15 @@ import requests
 import json
 from tkinter import ttk
 
-i = 0
 npregunta = 1
-x = 4
 puntuacio = 0
 
 def preguntascaptio(ventana):
-    # Create an instance of tkinter frame
     ventana.destroy()
     win = Tk()
     win.geometry("700x350")
     win.title("Trivial")
 
-    # Create a text box to display the response body
     text = Text(win, height=3, width=25, wrap="word")
     text.config(font="Arial, 12")
 
@@ -45,11 +41,8 @@ def pregunta1(text,label,win):
    resposta3.place(y=250,x=150)
    resposta4.place(y=250,x=370)
 
-
    text.delete('1.0', END)
    text.insert(END, Fact)
-
-    # Create Next and Exit Button
 
    label.pack()
    text.pack()
@@ -58,8 +51,6 @@ def pregunta1(text,label,win):
 def next(text,resposta1,resposta2,resposta3,resposta4,puntuacio):
     text.delete('1.0',END)
     global npregunta
-    global x 
-    x +=1
     npregunta += 1
     if npregunta != 11:    
         api_url = "http://127.0.0.1:8000/accion/" + str(npregunta)
