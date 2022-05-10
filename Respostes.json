@@ -4,7 +4,7 @@
             "id": "1",
             "text": "Juanan Romero",
             "pregunta": "1",
-            "correta":"Si"
+            "correta":"No"
         },
         {
             "id": "2",
@@ -24,7 +24,7 @@
             "id": "4",
             "text": "Marc Oliveras",
             "pregunta": "1",
-            "correta":"No"
+            "correta":"Si"
         },
         
         {
@@ -56,15 +56,15 @@
         
         {
             "id": "9",
-            "text": "Ucranianos",
-            "pregunta": "3",
-            "correta":"Si"
-        },
-        {
-            "id": "10",
             "text": "Rusos",
             "pregunta": "3",
             "correta":"No"
+        },
+        {
+            "id": "10",
+            "text": "Ucranianos",
+            "pregunta": "3",
+            "correta":"Si"
 
         },
         {
@@ -85,7 +85,7 @@
             "id": "13",
             "text": "Javier,Jhosevic,Roger,Jordi",
             "pregunta": "4",
-            "correta":"Si"
+            "correta":"No"
         },
         {
             "id": "14",
@@ -98,7 +98,7 @@
             "id": "15",
             "text": "Fernando,Isa,Enric,Pepe",
             "pregunta": "4",
-            "correta":"No"
+            "correta":"Si"
 
         },
         {
@@ -106,6 +106,162 @@
             "text": "Javier,Fernando,Marc,Ricard",
             "pregunta": "4",
             "correta":"No"
+        },   
+        {
+            "id": "17",
+            "text": "Javi Fibla",
+            "pregunta": "5",
+            "correta":"No"
+        },
+        {
+            "id": "18",
+            "text": "Carlos Masana",
+            "pregunta": "5",
+            "correta":"No"
+
+        },
+        {
+            "id": "19",
+            "text": "Cinta Canalda",
+            "pregunta": "5",
+            "correta":"No"
+
+        },
+        {
+            "id": "20",
+            "text": "Xavi Fibla",
+            "pregunta": "5",
+            "correta":"Si"
+        },
+        {
+            "id": "21",
+            "text": "Java",
+            "pregunta": "6",
+            "correta":"No"
+        },
+        {
+            "id": "22",
+            "text": "C++",
+            "pregunta": "6",
+            "correta":"No"
+
+        },
+        {
+            "id": "23",
+            "text": "Python",
+            "pregunta": "6",
+            "correta":"Si"
+
+        },
+        {
+            "id": "24",
+            "text": "Phyton",
+            "pregunta": "6",
+            "correta":"No"
+        },
+        {
+            "id": "21",
+            "text": "Gratis",
+            "pregunta": "7",
+            "correta":"Si"
+        },
+        {
+            "id": "22",
+            "text": "50centimos",
+            "pregunta": "7",
+            "correta":"No"
+
+        },
+        {
+            "id": "23",
+            "text": "20centimos",
+            "pregunta": "7",
+            "correta":"No"
+
+        },
+        {
+            "id": "24",
+            "text": "1Euro",
+            "pregunta": "7",
+            "correta":"No"
+        },
+        {
+            "id": "25",
+            "text": "Culpa de soporte",
+            "pregunta": "8",
+            "correta":"No"
+        },
+        {
+            "id": "26",
+            "text": "Me Encanta programar",
+            "pregunta": "8",
+            "correta":"No"
+
+        },
+        {
+            "id": "27",
+            "text": "Binga Binga",
+            "pregunta": "8",
+            "correta":"Si"
+
+        },
+        {
+            "id": "28",
+            "text": "Solo se que no se nada ",
+            "pregunta": "8",
+            "correta":"No"
+        },
+        {
+            "id": "29",
+            "text": "Pepe Curto",
+            "pregunta": "9",
+            "correta":"Si"
+        },
+        {
+            "id": "30",
+            "text": "Alba Martinez",
+            "pregunta": "9",
+            "correta":"No"
+
+        },
+        {
+            "id": "31",
+            "text": "Douglas",
+            "pregunta": "9",
+            "correta":"Si"
+
+        },
+        {
+            "id": "32",
+            "text": "Joel Pascual",
+            "pregunta": "9",
+            "correta":"No"
+        },
+        {
+            "id": "33",
+            "text": "EE.UU",
+            "pregunta": "10",
+            "correta":"Si"
+        },
+        {
+            "id": "34",
+            "text": "Jamaica",
+            "pregunta": "10",
+            "correta":"No"
+
+        },
+        {
+            "id": "35",
+            "text": "Australia",
+            "pregunta": "10",
+            "correta":"No"
+
+        },
+        {
+            "id": "36",
+            "text": "Asturias",
+            "pregunta": "10",
+            "correta":"Si"
         }
     
     ]

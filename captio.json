@@ -4,23 +4,43 @@
 
 	{
 		"id": "1",
-		"pregunta": "Quien es el substituto de Lluis?",
-		"correcta": "3"
+		"pregunta": "Quien es el substituto de Lluis?"
 	},
 	{
 		"id": "2",
-		"pregunta": "Quien va siempre con una gorra puesta?",
-		"correcta": "2"
+		"pregunta": "Quien va siempre con una gorra puesta?"
 	},
 	{
 		"id": "3",
-		"pregunta": "Que refugiados acogio Captio?",
-		"correcta": "2"
+		"pregunta": "Que refugiados acogio Captio?"
 	},
 	{
 		"id":"4",
-		"pregunta":"Quienes son los integrantes de QA?",
-		"correcta":"3"
+		"pregunta":"Quienes son los integrantes de QA?"
+	},	
+	{
+		"id": "5",
+		"pregunta": "Quien paso de trabajar en Captio a ser profesor?"
+	},
+	{
+		"id": "6",
+		"pregunta": "Que lenguaje de programacion se implementara en un futuro?"
+	},
+	{
+		"id": "7",
+		"pregunta": "Precio del cafe:"
+	},
+	{
+		"id":"8",
+		"pregunta":"Mitica frase que dicen los empleados de Captio"
+	},
+	{
+		"id":"9",
+		"pregunta":"Quien ha hecho este programa?"
+	},
+	{
+		"id":"10",
+		"pregunta":"Donde esta viviendo Fernado Pereira"
 	}
 ]
 }

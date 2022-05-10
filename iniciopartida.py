@@ -33,13 +33,7 @@ def opciones(root):
     ventana.title("Opciones")
     ventana.geometry("750x350")
     opcion1 =  Button(ventana, text = 'Captio',command=lambda:preguntascaptio(ventana))
-    opcion2 =  Button(ventana, text = 'Cultura General',command=lambda:comprobarusuario(login.get(),password.get()))
-    opcion3 =  Button(ventana, text = 'Paises',command=lambda:comprobarusuario(login.get(),password.get()))
-
-    opcion1.place(x=150, y=150)
-    opcion2.place(x=290, y=150)
-    opcion3.place(x=450,y=150)
-
+    opcion1.place(x=350, y=150)
 
 
     ventana.mainloop()

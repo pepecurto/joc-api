@@ -16,7 +16,6 @@ def partida():
 
     return data
    
-
 @app.get("/accion/{accion_id}")
 def accio(accion_id):
     f = open(captiojson)
@@ -37,17 +36,6 @@ def respuesta(npregunta):
         if pregunta['pregunta'] == npregunta:
             resposteslist.append(pregunta)
     return resposteslist
-
-
-@app.get("/guardarpartida/{slot_id}")
-async def accio(slot_id: int):
-    return {"Has guardado la partida en el slot ": slot_id}
-
-@app.get("/cargarpartida/{slot_id}")
-async def accio(slot_id: int):
-    return {"Has cargado la partida del slot ": slot_id}
-
-
     
 """
 python -m uvicorn api:app --reload
