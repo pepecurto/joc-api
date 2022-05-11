@@ -1,18 +1,20 @@
-
 {
-    "Partides":[
-    
+    "Partides": [
         {
-            "id": "1",
-            "nom": "Partida Pepe"
+            "nom": "Pepe",
+            "npregunta": "5"
         },
         {
-            "id": "2",
-            "nom": "Partida Paco"
+            "nom": "Fernando",
+            "npregunta": "9"
         },
         {
-            "id": "3",
-            "nom": "Partida Enric"
+            "nom": "Enric",
+            "npregunta": "7"
+        },
+        {
+            "nom": "Partida 5\n",
+            "npregunta": "4"
         }
     ]
-    }
+}

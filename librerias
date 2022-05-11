@@ -1,4 +1,5 @@
-pip install fastapi
-pip install uvicorn
-pip install requests
-sudo apt-get install tkinter
+pip install fastapi  o py -m pip install fastapi
+pip install uvicorn  o py -m pip install uvicorn
+pip install requests o py -m pip install requests
+
+

@@ -7,7 +7,7 @@ from Captio import preguntascaptio
 
 
 api_url = "http://127.0.0.1:8000/iniciarpartida"
-variable = 1
+
 def iniciarpartida():
     root = Tk()
     root.title("Juego Python")
@@ -25,7 +25,6 @@ def iniciarpartida():
 
 def opciones(root):
     root.destroy()
-
     ventana = Tk()
     ventana.title("Opciones")
     ventana.geometry("750x350")

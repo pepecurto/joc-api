@@ -2,7 +2,7 @@ from tkinter import *
 import requests
 import json
 from tkinter import ttk
-
+from guardar import guardarpartida
 npregunta = 1
 puntuacio = 0
 
@@ -11,6 +11,12 @@ def preguntascaptio(ventana):
     win = Tk()
     win.geometry("700x350")
     win.title("Trivial")
+    nompartida = Text(win,height=1,width=20)
+    nompartida.insert(END,"Nombre partida")
+    nompartida.place(x= 525,y = 32)
+    opcio2 = Button(win, text = 'Guardar',command=lambda:guardarpartida(nompartida.get("1.0","end"),npregunta,nompartida))
+    opcio2.place (x= 470, y = 30)
+    
 
     text = Text(win, height=3, width=25, wrap="word")
     text.config(font="Arial, 12")
@@ -52,7 +58,11 @@ def next(text,resposta1,resposta2,resposta3,resposta4,puntuacio):
     text.delete('1.0',END)
     global npregunta
     npregunta += 1
-    if npregunta != 11:    
+    if npregunta != 11:   
+
+
+
+
         api_url = "http://127.0.0.1:8000/accion/" + str(npregunta)
         api_url2 = "http://127.0.0.1:8000/respuestas/" + str(npregunta)
         response = requests.get(api_url).text
