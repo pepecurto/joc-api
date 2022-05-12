@@ -14,7 +14,7 @@ def preguntascaptio(ventana):
     nompartida = Text(win,height=1,width=20)
     nompartida.insert(END,"Nombre partida")
     nompartida.place(x= 525,y = 32)
-    opcio2 = Button(win, text = 'Guardar',command=lambda:guardarpartida(nompartida.get("1.0","end"),npregunta,nompartida))
+    opcio2 = Button(win, text = 'Guardar',command=lambda:guardarpartida(nompartida.get("1.0","end"),npregunta,nompartida,puntuacio))
     opcio2.place (x= 470, y = 30)
     
 

@@ -38,9 +38,9 @@ def respuesta(npregunta):
     
 
 
-@app.post("/guardarpartida/{nom}/{npregunta}")
-def guardar(nom,npregunta):
-    formata(nom,npregunta)
+@app.post("/guardarpartida/{nom}/{npregunta}/{puntuacio}")
+def guardar(nom,npregunta,puntuacio):
+    formata(nom,npregunta,puntuacio)
     global formatopost 
     with open(Partides, 'r+') as file:
         
@@ -51,9 +51,9 @@ def guardar(nom,npregunta):
 
     return nom,npregunta
 
-def formata(nom,npregunta):
+def formata(nom,npregunta,puntuacio):
     global formatopost
-    formatopost = {"nom":nom,"npregunta":npregunta}
+    formatopost = {"nom":nom,"npregunta":npregunta,"puntuacio":puntuacio}
     return formatopost
 
 

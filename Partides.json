@@ -2,19 +2,18 @@
     "Partides": [
         {
             "nom": "Pepe",
-            "npregunta": "5"
+            "npregunta": "5",
+            "puntuacio": " 4"
         },
         {
             "nom": "Fernando",
-            "npregunta": "9"
+            "npregunta": "9",
+            "puntuacio": "6"
         },
         {
             "nom": "Enric",
-            "npregunta": "7"
-        },
-        {
-            "nom": "Partida 5\n",
-            "npregunta": "4"
+            "npregunta": "7",
+            "puntuacio": " 2"
         }
     ]
 }
