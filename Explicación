@@ -1,0 +1,46 @@
+Este es un juego al estilo trivial, debido al tiempo solo cuenta con la opción de preguntas de Captio.
+
+Hay 10 preguntas, que mediante la api las obtenemos del archivo captio.json
+las respuestas para cada pregunta del archivo Respostes.json
+
+Luego tenemos el archivo partides.json que dentro del juego tenemos una opción que
+ mediante una llamada post podemos "guardar" la partida
+
+
+
+1- instalar paquetes necesarios para que funcione el juego
+
+2-Abrir un terminal en la carpeta "joc api" donde se encuentra el juego y poner en marcha la api con el comando: 
+python -m uvicorn api:app --reload
+
+3- ejecutar el archivo iniciopartida.py comando: python .\iniciopartida.py
+
+
+Primera ventana:
+
+En la primera ventana podemos ver unos botones en el medio que son las partidas guardadas en el archivo Partides.json 
+(no está implementado la función de cargar partidas)
+
+En la parte izquierda de la ventana podremos ver un botón (new game) al pulsarlo nos llevará a otra ventana
+
+
+
+
+Segunda ventana:
+
+En la segunda ventana podremos ver que es una ventana donde solo aparece un botón que pone Captio,
+ esto es porque quería hacer dos o tres opciones del trivial, pero no me dio tiempo y deje solo la de Captio.
+
+Al pulsar en el botón de Captio empezará el trivial sobre preguntas de Captio.
+Debido a que son preguntas bastante fáciles se necesita un 10/10 para pasar "aprobar" el trivial
+
+
+
+Tercera ventana:
+
+En la tercera ventana ya será la ventana de las preguntas, donde podemos ver un texto arriba donde aparecerá la pregunta
+y luego 4 opciones abajo, si acertamos la pregunta sumaremos 1 punto.
+
+Por último podremos ver una botón y una casilla de guardar
+poniendo un texto en el input y dándole a botón de guardar, en el archivo Partides.json se guardará el nombre de la partida,
+el número de la pregunta donde le hemos dado a guardar y la puntuación que llevábamos

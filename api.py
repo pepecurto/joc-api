@@ -55,11 +55,3 @@ def formata(nom,npregunta,puntuacio):
     global formatopost
     formatopost = {"nom":nom,"npregunta":npregunta,"puntuacio":puntuacio}
     return formatopost
-
-
-
-
-"""
-python -m uvicorn api:app --reload
-https://www.youtube.com/watch?v=9N6a-VLBa2I
-"""
