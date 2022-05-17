@@ -3,8 +3,7 @@ import tkinter as tk
 import requests
 import json
 
-from Captio import preguntascaptio
-
+from Controlador import preguntascaptio
 
 api_url = "http://127.0.0.1:8000/iniciarpartida"
 

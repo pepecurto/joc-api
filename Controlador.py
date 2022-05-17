@@ -2,9 +2,9 @@ from tkinter import *
 import requests
 import json
 from tkinter import ttk
-from guardar import guardarpartida
 npregunta = 1
 puntuacio = 0
+api_post = "http://127.0.0.1:8000/guardarpartida"
 
 def preguntascaptio(ventana):
     ventana.destroy()
@@ -110,3 +110,9 @@ def comprobar(resposta,text,resposta1,resposta2,resposta3,resposta4):
         next(text,resposta1,resposta2,resposta3,resposta4,puntuacio)
     else:
         next(text,resposta1,resposta2,resposta3,resposta4,puntuacio)
+
+def guardarpartida(nom,npregunta,nompartida,puntuacio):
+    global api_post
+    response = requests.post(api_post + "/" + nom + "/" + str(npregunta) + "/" + str(puntuacio)).text
+    nompartida.delete("1.0",END)
+    nompartida.insert(END,"Partida Guardada")

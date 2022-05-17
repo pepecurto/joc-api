@@ -13,7 +13,7 @@ Luego tenemos el archivo partides.json que dentro del juego tenemos una opción 
 2-Abrir un terminal en la carpeta "joc api" donde se encuentra el juego y poner en marcha la api con el comando: 
 python -m uvicorn api:app --reload
 
-3- ejecutar el archivo iniciopartida.py comando: python .\iniciopartida.py
+3- ejecutar el archivo main.py comando: python .\main.py
 
 
 Primera ventana:
